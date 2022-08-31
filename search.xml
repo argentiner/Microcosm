@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/microcosm/2022/08/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>主题Butterfly个性化配置</title>
+    <url>/microcosm/2022/08/29/%E4%B8%BB%E9%A2%98Butterfly%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="页面配置"><a href="#页面配置" class="headerlink" title="页面配置"></a>页面配置</h1><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">type <span class="hljs-regexp">//</span>标签/分类和友情链接三个页面需要配置<br>top_img <span class="hljs-regexp">//</span>页面顶部图片<br></code></pre></td></tr></table></figure>
+
+<h1 id="标签页和分类页配置"><a href="#标签页和分类页配置" class="headerlink" title="标签页和分类页配置"></a>标签页和分类页配置</h1><p>hexo new page tags &amp; categories<br>添加 type: “tags”<br>添加 type: “categories”</p>
+<h1 id="友情链接配置"><a href="#友情链接配置" class="headerlink" title="友情链接配置"></a>友情链接配置</h1><p>hexo new page link<br>添加 type: “link”</p>
+<p>在Hexo博客目录中的source/_data（如果没有 _data 文件夹，请自行创建），创建一个文件link.yml。</p>
+<ul>
+<li>class_name: 网站<br>class_desc: 值得推荐的网站<br>link_list:<ul>
+<li>name: Youtube<br>link: <a href="https://www.youtube.com/">https://www.youtube.com/</a><br>avatar: <a href="https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png">https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png</a><br>descr: 视频网站</li>
+<li>name: Weibo<br>link: <a href="https://www.weibo.com/">https://www.weibo.com/</a><br>avatar: <a href="https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png">https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png</a><br>descr: 中国最大社交分享平台</li>
+</ul>
+</li>
+</ul>
+<p>menu:<br>  首页: / || fas fa-home<br>  时间轴: /archives/ || fas fa-archive<br>  标签: /tags/ || fas fa-tags<br>  分类: /categories/ || fas fa-folder-open<br>  列表||fas fa-list||hide:<br>    音乐: /music/ || fas fa-music<br>    视频: /movies/ || fas fa-video<br>  友链: /link/ || fas fa-link<br>  关于我: /about/ || fas fa-heart</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的自画像</title>
+    <url>/microcosm/2022/08/31/%E6%88%91%E7%9A%84%E8%87%AA%E7%94%BB%E5%83%8F/</url>
+    <content><![CDATA[<p>倒腾了两天做了下自画像，准备换成头像。</p>
+<p>初版拍的照片并不好看，所以简笔画画出来的效果实在一般。</p>
+<p>第二版拍照找了下角度，用新买的无线键鼠作道具，构图好看了一些。</p>
+<h2 id="勾勒自画像方法"><a href="#勾勒自画像方法" class="headerlink" title="勾勒自画像方法"></a>勾勒自画像方法</h2><ol>
+<li>选择画笔工具，调整半径尺寸，建议13-15像素；</li>
+<li>选择钢笔工具，以画笔进行描边。</li>
+</ol>
+<h2 id="存在不足地方："><a href="#存在不足地方：" class="headerlink" title="存在不足地方："></a>存在不足地方：</h2><ol>
+<li>眼镜部分可以再勾勒一下。</li>
+<li>手型描绘粗糙。</li>
+<li>鼻子太靠上，嘴巴可以画成转折型。</li>
+</ol>
+<h2 id="下一版自画像打算"><a href="#下一版自画像打算" class="headerlink" title="下一版自画像打算"></a>下一版自画像打算</h2><p>等电脑增高架和鼠标垫到了，再换个角度重新描绘，注意改进以上不足地方。</p>
+<h2 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h2><ol>
+<li>简笔画勾勒实在费时间。</li>
+<li>购买手写笔是否会提高生产力呢？</li>
+<li>还需要再看看教学视频，有些方法可能改善效率。</li>
+<li>找一下是否有变现方法。</li>
+</ol>
+]]></content>
+  </entry>
+</search>
